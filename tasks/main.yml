@@ -1,0 +1,6 @@
+---
+- name: Set hostname
+  ansible.builtin.include_tasks: set_hostname.yml
+
+- name: Join machine to domain
+  ansible.builtin.include_tasks: join_domain.yml

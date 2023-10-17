@@ -1,0 +1,7 @@
+---
+domain_pdc: pdc01
+domain_name: ad01.bufu-sec.com
+domain_admin_user: 'ad01\administrator'
+domain_admin_password: Password!
+domain_ou_path: 'DC=ad01,DC=bufu-sec,DC=com'
+domain_computer_name: '{{ ansible_facts.hostname }}'
